@@ -188,6 +188,8 @@ namespace ParallelProgrammingArticle
             Console.WriteLine("Spawned parallel process of numbers and will wait until completion");
 
             task.Wait();
+
+            Console.WriteLine("Parallel process of numbers has completed");
         }
 
         /// <summary>
